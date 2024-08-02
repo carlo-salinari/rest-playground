@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@directus/sdk':
+        specifier: ^16.1.1
+        version: 16.1.1
+
+packages:
+
+  '@directus/sdk@16.1.1':
+    resolution: {integrity: sha512-vF/vk4PvyndxBE9SwININy3bfqjVPfQ35AXbsvDaJpE5OVclmQGbLqkYP6233GHqVUnveJDDUJssuz/QjeSYyQ==}
+    engines: {node: '>=18.0.0'}
+
+  '@directus/system-data@1.1.0':
+    resolution: {integrity: sha512-ETOoTyUXHQJD1NemdlJSADm32GoljQGhZUbg8bB31GAmBnGghTx+E16zzcb1TxRHEqQhV7PfLOrtwEksSTIw8Q==}
+
+snapshots:
+
+  '@directus/sdk@16.1.1':
+    dependencies:
+      '@directus/system-data': 1.1.0
+
+  '@directus/system-data@1.1.0': {}
